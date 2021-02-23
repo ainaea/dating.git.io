@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(242, 245, 207);
+
+    
+}
+
+fieldset{
+    background-color: lightyellow;
+    border: 10px solid yellow;
+    margin-bottom: 10px;
+    width: 720px;
+
+    /* border-color: yellow; */
+}
+
+fieldset label{
+    width: 180px;
+    display: inline-block;
+    
+}
+
+img{
+    width: 75px;
+    height: 105px;
+}
+
+.topright{
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    
+}
+
+.low{
+    background-color: red;
+    width: 10px;
+    padding: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+.top{
+    background-color: purple;
+    width: 10px;
+    padding: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+input:hover, label:hover, select:hover{
+    
+    font-size:20px 
+}
+
+textarea{
+    width: 360px;
+    height: 50px;
+}
